@@ -1,0 +1,42 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    # 每小时检查一次上游更新
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Sync from upstream
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # 添加上游仓库
+          git remote add upstream https://github.com/icon11-community/Folder-Ico.git 2>/dev/null || true
+
+          # 获取上游最新代码
+          git fetch upstream
+
+          # 检查是否有更新
+          LOCAL=$(git rev-parse HEAD)
+          REMOTE=$(git rev-parse upstream/main)
+
+          if [ "$LOCAL" = "$REMOTE" ]; then
+            echo "✅ 已是最新，无需同步"
+          else
+            echo "🔄 检测到上游更新，开始同步..."
+            git merge upstream/main --no-edit
+            git push origin main
+            echo "✅ 同步完成"
+          fi
