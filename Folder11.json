@@ -34260,13 +34260,34 @@
         "development"
       ],
       "category_source": "rules"
+    },
+    {
+      "name": "nextcloud",
+      "author": "Kochaaa",
+      "author_link": "https://github.com/Kochaaa",
+      "author_profile": "https://avatars.githubusercontent.com/u/20826048?v=4",
+      "size": 63669,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/nextcloud.ico",
+      "hash": "b70e123e002a28bc06b4f97d9e2268dafd8bce9a",
+      "date": "2026-07-31T15:16:49+02:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "applications",
+      "categories": [
+        "applications"
+      ],
+      "tags": [
+        "nextcloud",
+        "applications"
+      ],
+      "category_source": "fallback"
     }
   ],
   "categoryMetadata": {
     "schemaVersion": 1,
     "method": "deterministic-rules",
-    "currentIconCount": 1430,
-    "reviewCount": 0,
+    "currentIconCount": 1431,
+    "reviewCount": 1,
     "categoryCounts": [
       {
         "category": "development",
@@ -34578,6 +34599,10 @@
       },
       {
         "category": "development.svelte",
+        "count": 1
+      },
+      {
+        "category": "applications",
         "count": 1
       }
     ]
