@@ -6359,29 +6359,6 @@
       "category_source": "rules"
     },
     {
-      "name": "bilibili",
-      "author": "SodaCodeSave",
-      "author_link": "https://github.com/SodaCodeSave",
-      "author_profile": "https://avatars.githubusercontent.com/u/175384622?v=4",
-      "size": 61366,
-      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/bilibili_history_9c2a269ae6a889b49b2493c9c444ac01ed6c3300.ico",
-      "hash": "9c2a269ae6a889b49b2493c9c444ac01ed6c3300",
-      "date": "2025-02-19T11:02:11+08:00",
-      "small_svg_url": "",
-      "is_history": true,
-      "category": "media.video",
-      "categories": [
-        "media.video",
-        "media"
-      ],
-      "tags": [
-        "bilibili",
-        "media",
-        "video"
-      ],
-      "category_source": "rules"
-    },
-    {
       "name": "bilibili_white",
       "author": "SodaCodeSave",
       "author_link": "https://github.com/SodaCodeSave",
@@ -34529,9 +34506,9 @@
     },
     {
       "name": "bilibili",
-      "author": "JangOetama",
-      "author_link": "https://github.com/JangOetama",
-      "author_profile": "https://avatars.githubusercontent.com/u/46255322?v=4",
+      "author": "SodaCodeSave",
+      "author_link": "https://github.com/SodaCodeSave",
+      "author_profile": "https://avatars.githubusercontent.com/u/175384622?v=4",
       "size": 61366,
       "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/bilibili.ico",
       "hash": "b892b2955238ca040ca3e11d5f546662fedf0f3d",
@@ -34749,17 +34726,39 @@
         "video"
       ],
       "category_source": "rules"
+    },
+    {
+      "name": "github_unicorn!",
+      "author": "JangOetama",
+      "author_link": "https://github.com/JangOetama",
+      "author_profile": "https://avatars.githubusercontent.com/u/46255322?v=4",
+      "size": 71309,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/github_unicorn!.ico",
+      "hash": "e5fa65e11e685fc4f98dc0ded622cbba542ca677",
+      "date": "2026-08-19T05:49:42+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "development",
+      "categories": [
+        "development"
+      ],
+      "tags": [
+        "github",
+        "unicorn!",
+        "development"
+      ],
+      "category_source": "rules"
     }
   ],
   "categoryMetadata": {
     "schemaVersion": 1,
     "method": "deterministic-rules",
-    "currentIconCount": 1451,
+    "currentIconCount": 1452,
     "reviewCount": 18,
     "categoryCounts": [
       {
         "category": "development",
-        "count": 147
+        "count": 148
       },
       {
         "category": "design",
