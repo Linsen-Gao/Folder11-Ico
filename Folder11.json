@@ -35052,13 +35052,167 @@
         "applications"
       ],
       "category_source": "fallback"
+    },
+    {
+      "name": "qoder-1",
+      "author": "iop666",
+      "author_link": "https://github.com/iop666",
+      "author_profile": "https://avatars.githubusercontent.com/u/61179634?v=4",
+      "size": 61682,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/qoder-1.ico",
+      "hash": "81f9c72f3dc660c09d21d43113a71b66cd653216",
+      "date": "2026-10-04T08:53:46+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "applications",
+      "categories": [
+        "applications"
+      ],
+      "tags": [
+        "qoder",
+        "applications"
+      ],
+      "category_source": "fallback"
+    },
+    {
+      "name": "qoder",
+      "author": "iop666",
+      "author_link": "https://github.com/iop666",
+      "author_profile": "https://avatars.githubusercontent.com/u/61179634?v=4",
+      "size": 59216,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/qoder.ico",
+      "hash": "33262ab03364b0e0fa022ed79fa446c667570fe1",
+      "date": "2026-10-04T08:53:46+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "applications",
+      "categories": [
+        "applications"
+      ],
+      "tags": [
+        "qoder",
+        "applications"
+      ],
+      "category_source": "fallback"
+    },
+    {
+      "name": "adobe_substance_designer",
+      "author": "tommyyangdev",
+      "author_link": "https://github.com/tommyyangdev",
+      "author_profile": "https://avatars.githubusercontent.com/u/217514219?v=4",
+      "size": 60889,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/adobe_substance_designer.ico",
+      "hash": "1483d14587896c73a438086daff5f210133fc9a7",
+      "date": "2026-10-04T09:04:19+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "design",
+      "categories": [
+        "design"
+      ],
+      "tags": [
+        "adobe",
+        "substance",
+        "designer",
+        "design"
+      ],
+      "category_source": "rules"
+    },
+    {
+      "name": "adobe_substance_modeler",
+      "author": "tommyyangdev",
+      "author_link": "https://github.com/tommyyangdev",
+      "author_profile": "https://avatars.githubusercontent.com/u/217514219?v=4",
+      "size": 61518,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/adobe_substance_modeler.ico",
+      "hash": "2e12148df08ba016b3ae2fe96823b2d0e937355c",
+      "date": "2026-10-04T09:04:19+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "design",
+      "categories": [
+        "design"
+      ],
+      "tags": [
+        "adobe",
+        "substance",
+        "modeler",
+        "design"
+      ],
+      "category_source": "rules"
+    },
+    {
+      "name": "adobe_substance_stager",
+      "author": "tommyyangdev",
+      "author_link": "https://github.com/tommyyangdev",
+      "author_profile": "https://avatars.githubusercontent.com/u/217514219?v=4",
+      "size": 63372,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/adobe_substance_stager.ico",
+      "hash": "8f5f6b7ac10a173e95fb1f0d03a08490c75debd5",
+      "date": "2026-10-04T09:04:19+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "design",
+      "categories": [
+        "design"
+      ],
+      "tags": [
+        "adobe",
+        "substance",
+        "stager",
+        "design"
+      ],
+      "category_source": "rules"
+    },
+    {
+      "name": "lego",
+      "author": "tommyyangdev",
+      "author_link": "https://github.com/tommyyangdev",
+      "author_profile": "https://avatars.githubusercontent.com/u/217514219?v=4",
+      "size": 71120,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/lego.ico",
+      "hash": "15ad48837e11d66f30ead09eb4c6ee4df613b01e",
+      "date": "2026-10-04T09:04:19+07:00",
+      "small_svg_url": "",
+      "is_history": false,
+      "category": "applications",
+      "categories": [
+        "applications"
+      ],
+      "tags": [
+        "lego",
+        "applications"
+      ],
+      "category_source": "fallback"
+    },
+    {
+      "name": "nilesoft_shell",
+      "author": "ropp5pop",
+      "author_link": "https://github.com/ropp5pop",
+      "author_profile": "https://avatars.githubusercontent.com/u/58117887?v=4",
+      "size": 55205,
+      "url_icon": "https://raw.githubusercontent.com/icon11-community/Folder-Ico/main/ico/nilesoft_shell.ico",
+      "hash": "fc344aa1232c6ee9ff8065d9815e096f33befb88",
+      "date": "2026-10-04T08:54:33+07:00",
+      "small_svg_url": "https://raw.githubusercontent.com/icon11-community/Folder11/main/small/nilesoft_shell.svg",
+      "is_history": false,
+      "category": "applications",
+      "categories": [
+        "applications"
+      ],
+      "tags": [
+        "nilesoft",
+        "shell",
+        "applications"
+      ],
+      "category_source": "fallback"
     }
   ],
   "categoryMetadata": {
     "schemaVersion": 1,
     "method": "deterministic-rules",
-    "currentIconCount": 1466,
-    "reviewCount": 30,
+    "currentIconCount": 1473,
+    "reviewCount": 34,
     "categoryCounts": [
       {
         "category": "development",
@@ -35066,7 +35220,7 @@
       },
       {
         "category": "design",
-        "count": 84
+        "count": 87
       },
       {
         "category": "media.video",
@@ -35117,16 +35271,16 @@
         "count": 34
       },
       {
+        "category": "applications",
+        "count": 34
+      },
+      {
         "category": "ai",
         "count": 33
       },
       {
         "category": "development.embedded",
         "count": 31
-      },
-      {
-        "category": "applications",
-        "count": 30
       },
       {
         "category": "productivity.documents",
